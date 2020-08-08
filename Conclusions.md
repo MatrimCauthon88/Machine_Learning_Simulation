@@ -1,6 +1,6 @@
-### Conclusions 
+## Conclusions 
 
-## Resampling 
+### Resampling 
 
 I tested four different resampling methods then used those resampling methods to run a logistic regresson model to see which one performed better. The different resampling methods I used were Naive Random Oversampling, SMOTE Oversampling, Cluster Centroids Undersampling, and SMOTEENN, which is a combination of oversampling and under sampling.
 
@@ -8,7 +8,7 @@ Of these different methods the SMOTE Oversampling had the best balanced accuracy
 
 The model that had the best geometric mean score was a tie between the SMOTE Oversampling model and the Naive Random Oversampling model. Based on these three factors the SMOTE oversampling model preformed the best in this case.
 
-## Ensemble
+### Ensemble
 
 For the ensemble learner models we tested two different models, a Balanced Random Forest Classifier and a Easy Ensemble Classifier. We used a Random Oversampler to test and train both models.
 
